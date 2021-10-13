@@ -53,7 +53,7 @@ nav{
     position: fixed;
     top: 0;
     z-index: 100;
-    /*transition: ease-in-out 0.5s*/
+    transition: ease-in-out 0.5s
     
 }
 
@@ -82,21 +82,6 @@ nav{
     color: #5d6678;
     text-decoration: none;
     margin-left: 20px;
-}
-
-.hamburguer{
-    width: 80px;
-    height: 80px;
-    display: none;
-    text-align: center;
-    z-index: 100;
-    cursor: pointer;
-    /*transition: color 0.5s ease-in;*/
-}
-
-.hamburguer > i{
-    font-size: 25px;
-    line-height: 80px;
 }
 
 .content-header{
@@ -212,19 +197,6 @@ nav{
 }
 
 
-.item>a{
-    color: #5d6678;
-    font-weight: 400;
-    text-decoration: none;
-}
-
-
-.item>a:hover{
-    color: #F0E68C;
-    transition: color .5s;
-}
-
-
 /*FAQS*/
 
 .FAQS{
@@ -281,7 +253,7 @@ nav{
     justify-content: space-evenly;
 }
 
-.numbers{
+.options{
     width: 60%;
     display: flex;
     flex-wrap: wrap;
@@ -289,7 +261,7 @@ nav{
 
 }
 
-.numbers .number{
+.options .hotel{
     width: 45%;
     background: rgba(255, 255, 255, .2);
     color: #fff;
@@ -298,16 +270,29 @@ nav{
     margin-bottom: 20px;
 }
 
-.numbers .number h4{
+.options .hotel h4{
     color: #fff;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 500;
     margin-bottom: 20px;
 }
 
-.numbers .number p{
+.options .hotel p{
     color: #f2f5fc;
     font-weight: 300;
+}
+
+.hotel>a{
+    
+    color: #fff;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+
+.hotel>a:hover{
+    color: #5d6678;
+    transition: color .5s;
 }
 
 
@@ -378,7 +363,7 @@ nav{
 /*FOOTER*/
 
 footer{
-    background: #f2f2f2;
+    background: #e0dcdc;
     padding: 60px 0;
     overflow: hidden;
     display: flex;
