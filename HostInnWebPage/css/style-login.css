@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 h1{
-    font-size: 50px;
+    font-size: 30px;
 }
 
 .container{
@@ -28,13 +28,41 @@ h1{
     overflow: hidden;
 }
 
-.container1{
+.containerForm{
 
     width: 90%;
     max-width: 1000px;
     margin: auto;
     overflow: hidden;
-    padding: 60px 0;
+    padding: 150px 300px;
+}
+
+.loginForm input{
+
+    display: block;
+    font-size: 18px;
+}
+
+.loginForm>div{
+
+    padding: 10px 0;
+}
+
+/* BOTON INICIAR SESION*/
+.loginForm a{
+    margin: 28px 0 0 15px;
+    width: 130px;
+    display: block;
+    background: #F0E68C;
+    text-align: center;
+    color: #fff;
+    padding: 12px 0;
+    text-decoration: none;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 14px;
+    border-radius: 5px;
+    box-shadow: 0 8px 32px rgba(193, 222, 31, 0.46);
 }
 
 nav{
