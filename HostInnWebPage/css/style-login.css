@@ -1,0 +1,106 @@
+*{
+
+    margin      :0;
+    padding     :0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+
+    color: #1d273b;
+    font-weight: 300;
+}
+
+h1{
+    font-size: 30px;
+}
+
+.container{
+
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.containerForm{
+
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    padding: 150px 300px;
+}
+
+.loginForm input{
+
+    display: block;
+    font-size: 18px;
+}
+
+.loginForm>div{
+
+    padding: 10px 0;
+}
+
+/* BOTON INICIAR SESION*/
+.loginForm a{
+    margin: 28px 0 0 15px;
+    width: 130px;
+    display: block;
+    background: #F0E68C;
+    text-align: center;
+    color: #fff;
+    padding: 12px 0;
+    text-decoration: none;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 14px;
+    border-radius: 5px;
+    box-shadow: 0 8px 32px rgba(193, 222, 31, 0.46);
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    background: #fff;
+    border-bottom: 1px solid transparent;
+    box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, .2);
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    transition: ease-in-out 0.5s
+    
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+}
+
+.nav .logo{
+    height: 80px;
+}
+
+.nav .logo img{
+    height: 100%;
+    vertical-align: top;
+}
+
+.links-header{
+    font-weight: 300;
+}
+
+.nav .links-header a{
+    color: #5d6678;
+    text-decoration: none;
+    margin-left: 20px;
+}
