@@ -28,14 +28,18 @@ h1{
     overflow: hidden;
 }
 
-.container1{
+.carousel{
 
     width: 90%;
     max-width: 1000px;
     margin: auto;
-    overflow: hidden;
-    padding: 60px 0;
+    padding: 160px 0;
+
+
 }
+
+.card {
+    flex: 0 0 auto;  }
 
 nav{
     width: 100%;
@@ -75,4 +79,89 @@ nav{
     color: #5d6678;
     text-decoration: none;
     margin-left: 20px;
+}
+
+
+/*FOOTER*/
+
+footer{
+    background: #e0dcdc;
+    padding: 60px 0;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+
+.partFooter{
+    width: 20%;
+    text-align: center;
+
+}
+
+.partFooter h4{
+    color: #1d273b;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.partFooter a{
+    display: block;
+    text-decoration: none;
+    color: #5d6678;
+    font-weight: 300;
+    transition: color .3s ease-in-out;
+    margin-bottom: 10px;
+}
+
+
+.partFooter a:hover{
+    color: #ffd700;
+}
+
+.partFooter img{
+    width: 70%;
+}
+
+.social-media i{
+    font-size: 20px;
+    display: inline-block;
+    color: #adb6c7;
+    border: 1px solid #adb6c7;
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+    line-height: 36px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-align: center;
+    transition: all ease-in-out .3s;
+    margin-right: 5px;
+}
+
+.social-media i:hover{
+    color: #fff;
+    background: #ffd700;
+    border-color: #ffd700;
+}
+
+
+/* BOTON */
+.carousel-caption a{
+    margin: 28px 0 0 0;
+    width: 130px;
+    display: inline-block;
+    background: #F0E68C;
+    text-align: center;
+    color: #fff;
+    padding: 12px 0;
+    text-decoration: none;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 14px;
+    border-radius: 5px;
+    box-shadow: 0 8px 32px rgba(193, 222, 31, 0.46);
 }
